@@ -622,17 +622,6 @@ class RecipeWaiter {
      * Adjusts the number of ingredient columns as the width of the recipe changes.
      */
     adjustWidth() {
-        const recList = document.getElementById("rec-list");
-
-        // Hide Chef icon on Bake button if the page is compressed
-        const bakeIcon = document.querySelector("#bake img");
-
-        if (recList.clientWidth < 370) {
-            // Hide Chef icon on Bake button
-            bakeIcon.style.display = "none";
-        } else {
-            bakeIcon.style.display = "inline-block";
-        }
 
         // Scale controls to fit pane width
         const controls = document.getElementById("controls");
