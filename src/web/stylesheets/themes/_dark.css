@@ -7,31 +7,31 @@
  */
 
 :root.dark {
-    --primary-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    --primary-font-colour: #c5c5c5;
+    --primary-font-family: sans-serif;
+    --primary-font-colour: #efefef;
     --primary-font-size: 14px;
     --primary-line-height: 20px;
 
-    --fixed-width-font-family: "Monaco", "Droid Sans Mono", "Consolas", monospace;
+    --fixed-width-font-family: monospace;
     --fixed-width-font-colour: inherit;
     --fixed-width-font-size: inherit;
 
     --subtext-font-colour: #999;
     --subtext-font-size: 13px;
 
-    --primary-background-colour: #1e1e1e;
-    --secondary-background-colour: #252525;
+    --primary-background-colour: #0b0b0b;
+    --secondary-background-colour: #070707;
 
-    --primary-border-colour: #444;
-    --secondary-border-colour: #3c3c3c;
+    --primary-border-colour: #0c0c0c;
+    --secondary-border-colour: #000000;
 
     --title-colour: #fff;
     --title-weight: bold;
-    --title-background-colour: #333;
+    --title-background-colour: #000000;
 
     --banner-font-colour: #c5c5c5;
-    --banner-bg-colour: #252525;
-    --banner-url-colour: #1976d2;
+    --banner-bg-colour: #000000;
+    --banner-url-colour: #303030;
 
     --category-list-font-colour: #1976d2;
 
@@ -43,32 +43,32 @@
 
     /* Operation colours */
     --op-list-operation-font-colour: #c5c5c5;
-    --op-list-operation-bg-colour: #333;
-    --op-list-operation-border-colour: #444;
+    --op-list-operation-bg-colour: #000000;
+    --op-list-operation-border-colour: #202020;
 
     --rec-list-operation-font-colour: #c5c5c5;
-    --rec-list-operation-bg-colour: #252525;
-    --rec-list-operation-border-colour: #444;
+    --rec-list-operation-bg-colour: #111111;
+    --rec-list-operation-border-colour: #000;
 
     --selected-operation-font-color: #c5c5c5;
-    --selected-operation-bg-colour: #3f3f3f;
-    --selected-operation-border-colour: #444;
+    --selected-operation-bg-colour: #1b1b1b;
+    --selected-operation-border-colour: #171717;
 
     --breakpoint-font-colour: #ddd;
     --breakpoint-bg-colour: #073655;
-    --breakpoint-border-colour: #444;
+    --breakpoint-border-colour: #000;
 
     --disabled-font-colour: #666;
-    --disabled-bg-colour: #444;
-    --disabled-border-colour: #444;
+    --disabled-bg-colour: #000;
+    --disabled-border-colour: #000;
 
     --fc-operation-font-colour: #c5c5c5;
     --fc-operation-bg-colour: #2d2d2d;
-    --fc-operation-border-colour: #444;
+    --fc-operation-border-colour: #000;
 
     --fc-breakpoint-operation-font-colour: #ddd;
     --fc-breakpoint-operation-bg-colour: #072b49;
-    --fc-breakpoint-operation-border-colour: #444;
+    --fc-breakpoint-operation-border-colour: #000;
 
 
     /* Operation arguments */
