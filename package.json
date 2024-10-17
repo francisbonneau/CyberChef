@@ -180,7 +180,8 @@
     "vkbeautify": "^0.99.3",
     "xpath": "0.0.34",
     "xregexp": "^5.1.1",
-    "zlibjs": "^0.3.1"
+    "zlibjs": "^0.3.1",
+    "zstd-codec": "^0.1.5"
   },
   "scripts": {
     "start": "npx grunt dev",
